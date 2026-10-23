@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import time # <--- Importe a biblioteca de tempo nativa do Python
 
 # ==========================================================
 # CONFIGURAÇÃO DA PÁGINA
@@ -10,6 +11,9 @@ st.set_page_config(
     page_icon="🌦️",
     layout="wide"
 )
+
+time.sleep(5)
+st.rerun()
 # ==========================================================
 # TÍTULO
 # ==========================================================
