@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 import time # <--- Importe a biblioteca de tempo nativa do Python
 
+#https://www.invertexto.com/mqtt
+
 # ==========================================================
 # CONFIGURAÇÃO DA PÁGINA
 # ==========================================================
